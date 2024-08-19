@@ -1,0 +1,343 @@
+*{
+    font-family: "Moderustic", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    display: flex;
+    /* justify-content:; */
+    /* padding: 15px; */
+    top: 0;
+    z-index: 1;
+} 
+#ul{
+    padding-left: 25%;
+}
+ul li h1{
+    font-size: medium;
+    margin: 15px;
+    padding-top: 5px;
+}
+.sc{
+    width: 20%;
+    height: 78px;
+    margin: 10px;
+    padding-top: 5px;
+}
+/* nav end */
+#home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    background-image: url(https://www.progressive.com/lifelanes/wp-content/uploads/2023/01/PR1497_FamilyRoadTrip_Banner.jpg);
+    height: 100%;
+    background-size: cover;
+
+}
+.main{
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+    color: white;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+    height: 320px;
+    width: 590px;
+    left: 4%;
+    margin-top: 10.5%;
+    background-color: rgba(0, 0, 0, 0.612);
+    border-radius: 10px;
+    
+}
+.mm{
+    color: white;
+    position: absolute;
+    height: 50px;
+    left: 6%;
+    margin-top: 16%;
+    font-weight: bold;
+    font-size: large;
+}
+.mmm{
+    /* color: white; */
+    position: absolute;
+    height: 50px;
+    width: 20%;
+    left: 15%;
+    margin-top: 24%;
+
+}
+.mmmm{
+    color: white;
+    position: absolute;
+    left: 12%;
+    margin-top: 28%;
+}
+.mmmm:hover{
+    color: rgb(28, 127, 197);
+}
+.cm{
+    color: white;
+    position: absolute;
+    left: 22%;
+    margin-top: 35%;
+}
+.cm:hover{
+    color: rgb(118, 172, 211);
+}
+/* //////////////// */
+nv{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    /* justify-content:; */
+    /* padding: 15px; */
+    top: 0;
+    z-index: 1;
+} 
+.nv{
+    display: flex;
+    justify-content: space-around;
+}
+.im1{
+    height: 37px;
+    width: 135px;
+    /* margin: 10px; */
+    margin-top: 47px;
+    margin-left: 200px;
+}
+.im2{
+    height: 37px;
+    width: 130px;
+    /* margin: 10px; */
+    margin-top: 47px;
+    margin-left: 40px;
+}
+.im3{
+    height: 55px;
+    width: 130px;
+    /* margin: 10px; */
+    margin-top: 38px;
+    margin-left: 40px;
+}
+.im4{
+    height: 37px;
+    width: 130px;
+    /* margin: 10px; */
+    margin-top: 47px;
+    margin-left: 40px;
+}
+.im5{
+    height: 35px;
+    width: 160px;
+    /* margin: 10px; */
+    margin-top: 47px;
+    margin-left: 40px;
+}
+.im6{
+    height: 80px;
+    width: 140px;
+    /* margin: 10px; */
+    margin-top: 28px;
+    margin-left: 40px;
+}
+/* ////////////// */
+#v1{
+    background-color: rgb(226, 226, 226);
+    height: 600px;
+}
+.v1{
+    border-radius: 400px;
+    margin-top: 50px;
+    height: 500px;
+    width: 700px;
+    margin-left: 25px;
+}
+#b1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(87, 87, 87);
+    font-weight: 550;
+    font-size: 350%;
+}
+#b2{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+    /* font-weight: 550; */
+    font-size: 130%;
+}
+#b3{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+    /* font-weight: 550; */
+    font-size: 130%;
+}
+#b4{
+    align-items: center;
+    background-color: rgb(62, 82, 138);
+    margin-top: 30px;
+    color: white;
+    /* font-weight: 550; */
+    font-size: 130%;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+#b4:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+/* ////////// */
+#b5{
+    margin: 30px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-weight: 550;
+    font-size: 250%;
+    /* margin-bottom: 20px; */
+}
+/* cards */
+.upp{
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(29, 98, 123);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.upp:hover{
+    color: rgb(69, 180, 228);
+}
+
+#b9{
+    display: flex;
+    justify-content: space-around;
+}
+/* /// */
+#b0{
+    margin: 50px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-weight: 550;
+    font-size: 250%;
+    padding-top: 20px;
+    
+}
+#by{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#bg{
+    margin: 30px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-weight: 550;
+    font-size: 250%;
+    /* margin-bottom: 20px; */
+    
+}
+#bd{
+    align-items: center;
+    background-color: rgb(62, 82, 138);
+    margin-top: 2px;
+    color: white;
+    /* font-weight: 550; */
+    font-size: 130%;
+    border-radius: 10px;
+    margin-left: 605px;
+    margin-bottom: 20px;
+}
+#bd:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+#f1{
+    text-align: center;
+    color: rgb(32, 109, 142);
+    font-weight: 550;
+    font-size: 250%;
+}
+#f2{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+    /* font-weight: 550; */
+    font-size: 130%;
+}
+span{
+    color: rgb(27, 132, 167);
+}
+#f3{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(87, 87, 87);
+    /* font-weight: 550; */
+    font-size: 130%;
+}
+#f4{
+    color: rgb(16, 90, 155);
+    font-size: 100%;
+    font-weight: 600;
+}
+#hq{
+    align-items: center;
+    background-color: rgb(69, 92, 155);
+    margin-top: 50px;
+    color: white;
+    /* font-weight: 550; */
+    font-size: 130%;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+#hq:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+footer{
+    background-color: rgb(195, 228, 254);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 33.3%;
+    
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    /* text-align: center; */
+}
+.footer-content p{
+    /* width: 190px; */
+    margin: auto;
+    padding: 7px;
+    
+}
+.rrr{
+    text-align: start;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#tt{
+    margin-bottom: 50px;
+}
